@@ -1,0 +1,1 @@
+This is the first Odin Project to create a recipe website using the foundational html skills at the start of the course. This will test various html functions including links, images, paragraphs etc.
