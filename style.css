@@ -1,0 +1,59 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+    background-color: tan;
+    list-style-position: inside;
+}
+.home h1{
+    background-color: cadetblue;
+}
+
+.home ul{
+    list-style-type: none;
+}
+
+.home a:link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.home a:hover {
+    font-size: 30px;
+    color:darkolivegreen;
+    text-decoration: underline;
+}
+
+.penne {
+    background-color: rgba(128, 0, 0, 0.35);
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.penne .desc,.penne .ing,.penne .steps {
+    background-color: tan;
+}
+
+.bulg {
+    background-color:bisque;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.bulg .desc,.bulg .ing,.bulg .steps {
+    background-color:rgba(85, 107, 47, 0.432);
+}
+
+.buff {
+    background-color:rgba(204, 123, 23, 0.636);
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.buff .desc,.buff .ing,.buff .steps {
+    background-color:tan;
+}
