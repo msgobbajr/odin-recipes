@@ -1,4 +1,5 @@
-body {
+* {
+    box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -10,13 +11,23 @@ h1 {
     text-align: center;
     background-color: tan;
     list-style-position: inside;
+    width: 500px;
+    padding: 8px;
+    border: 8px double grey;
+    margin: 8px auto;
 }
-.home h1{
+.title {
     background-color: cadetblue;
+    border: 8px double grey;
+    width: 500px;
+    padding: 8px;
+    margin: 8px auto;
 }
 
 .home ul{
     list-style-type: none;
+    margin: 8px auto;
+    padding: 8px;
 }
 
 .home a:link {
@@ -26,14 +37,48 @@ h1 {
 }
 
 .home a:hover {
-    font-size: 30px;
+    font-size: 24px;
     color:darkolivegreen;
     text-decoration: underline;
+}
+
+h2 {
+    padding: 3px;
+    margin: 3px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border: 3px ridge gold;
+}
+
+.desc {
+    padding: 3px 20px;
+    margin: 3px 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.ing, .steps {
+    padding: 3px;
+    margin: 0px 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+ul, ol {
+    padding: 0px;
+    margin: 6px 20px;
+}
+
+.penne, .buff, .bulg {
+    border: 6px double grey;
 }
 
 .penne {
     background-color: rgba(128, 0, 0, 0.35);
     color: rgba(0, 0, 0, 0.692);
+    margin: 3px;
 }
 
 .penne .desc,.penne .ing,.penne .steps {
@@ -43,6 +88,7 @@ h1 {
 .bulg {
     background-color:bisque;
     color: rgba(0, 0, 0, 0.692);
+    margin: 3px;
 }
 
 .bulg .desc,.bulg .ing,.bulg .steps {
@@ -52,6 +98,7 @@ h1 {
 .buff {
     background-color:rgba(204, 123, 23, 0.636);
     color: rgba(0, 0, 0, 0.692);
+    margin: 3px;
 }
 
 .buff .desc,.buff .ing,.buff .steps {
